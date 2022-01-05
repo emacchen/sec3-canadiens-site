@@ -1,0 +1,34 @@
+/*BACKGROUND IMAGE*/
+ 
+.header {
+    background-image: url(https://www.pqbnews.com/wp-content/uploads/2021/06/25611864_web1_210624-CPW-Montreal-Canadiens-final-Ftenationale-Habs_1.jpg);
+    background-position: center; 
+ }
+  
+ /*NAVBAR Position/Colour*/
+  
+ #home {
+  top: 320px;
+  background-color: mediumblue;
+ }
+ #standings {
+  top: 390px;
+  background-color: crimson;
+ }
+ #stats {
+  top: 460px;
+  background-color: mediumblue;
+ }
+ #teams {
+  top: 530px;
+  background-color: crimson;
+ }
+ #site {
+  top: 600px;
+  background-color: mediumblue;
+ }
+ #twitter {
+  top: 670px;
+  background-color: crimson;
+ }
+  

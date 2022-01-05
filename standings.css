@@ -1,0 +1,48 @@
+/*BACKGROUND IMAGE*/
+ 
+.header {
+    background-image: url(https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fawinninghabit.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1233177280.jpeg);
+    background-position: middle;
+ }
+  
+ /*NAVBAR Position/Colour*/
+  
+ #home {
+  top: 320px;
+  background-color: mediumblue;
+ }
+ #news {
+  top: 390px;
+  background-color: crimson;
+ }
+ #playoffs {
+  top: 460px;
+  background-color: mediumblue;
+ }
+ #stats {
+  top: 530px;
+  background-color: crimson;
+ }
+ #teams {
+  top: 600px;
+  background-color: mediumblue;
+ }
+ #site {
+  top: 670px;
+  background-color: crimson;
+ }
+ #twitter {
+  top: 740px;
+  background-color: mediumblue;
+ }
+
+ .divisionTable {
+     padding-top: 70px;
+ }
+
+ .divisionTable td{
+    width:10%;
+ }
+  .stanDivisionTable td:nth-child(1){
+    width:auto;
+ }
