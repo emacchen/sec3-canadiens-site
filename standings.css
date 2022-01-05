@@ -15,25 +15,21 @@
   top: 390px;
   background-color: crimson;
  }
- #playoffs {
+ #stats {
   top: 460px;
   background-color: mediumblue;
  }
- #stats {
+ #teams {
   top: 530px;
   background-color: crimson;
  }
- #teams {
+ #site {
   top: 600px;
   background-color: mediumblue;
  }
- #site {
+ #twitter {
   top: 670px;
   background-color: crimson;
- }
- #twitter {
-  top: 740px;
-  background-color: mediumblue;
  }
 
  .divisionTable {
