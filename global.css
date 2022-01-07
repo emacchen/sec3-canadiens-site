@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     text-align: center;
+    font-family: "Trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
  }
   
  /*HEADER*/
@@ -27,7 +28,7 @@
   
  /*LOGIN BUTTON*/
   
- .loginbtn {
+ .xfeedback {
   position: absolute;
   width: 100px;
   height: 40px;
@@ -180,9 +181,11 @@
  .wrapper {
    display: flex;  
    flex-flow: row wrap;
+   padding-left: 100px;
+   padding-right: 100px;
  }
  .aside {
-    width: 350px;
+    width: 100px;
  }
  .main {
     width: auto;

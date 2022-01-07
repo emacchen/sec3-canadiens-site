@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Design Project: Feedback Page</title>
+    <meta name="description" content="An HTML basic: Boilerplate" />
+    <link rel="stylesheet" href="feedback.css" />
+</head>
+
+<body>
+    <div class="outterBox">
+        <div class="feedbackForm">
+            <h1>Feedback</h1>
+            <form>
+                <p>
+                    <label>First Name:
+                        <input id="fName" type="text" name="Fname" placeholder="First name" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Last name:
+                        <input id="lName" type="text" name="lName" placeholder="Last name">
+                    </label>
+                </p>
+                <p>
+                    <label>Email:
+                        <input id="email" type="email" name="emailAddress" placeholder="Email" required>
+                    </label>
+                </p>
+                <div class="rate" required>
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div><br>
+                <select name="select name" id="reason">
+                    <option value="q1">Useful/interesting data</option>
+                    <option value="q2">Great</option>
+                    <option value="q3">Go Habs Go</option>
+                    <option value="q4">Website out of date</option>
+                    <option value="q5">Website lacks data/info</option>
+                    <option value="q6">Hate the Habs</option>
+                    <option value="q7">Other (please specify)</option>
+                </select>
+                <p>
+                    <label>Additional Comments:<br>
+                        <input id="additionalComments" type="text" name="comments" style="height: 100px; width:300px;"
+                            placeholder="E.g. Recommendations, features">
+                    </label>
+                </p>
+                <input type="button" class="button" value="Submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
